@@ -294,8 +294,12 @@ input[type="submit"] {
 }
 
 @media all and (max-width: 1000px) {
-	#about{
+	#about {
 		flex-direction: column;
+	}
+	#presentation {
+		flex-direction: column;
+		align-items: center;
 	}
 	.picture {
 		width: 50%;
