@@ -50,6 +50,9 @@ h1 {
 #presentation {
 	display: flex;
 }
+.picture.left {
+	height: 100%;
+}
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
