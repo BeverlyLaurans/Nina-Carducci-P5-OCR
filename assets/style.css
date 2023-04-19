@@ -4,7 +4,6 @@ body {
 }
 * {
 	font-family: 'Inter';
-	/* font-style: normal; */
 }
 header {
 	background-color: white;
@@ -67,6 +66,7 @@ h1 {
 }
 .picture img {
 	width: 100%;
+	height: 100%;
 }
 #about-me {
 	flex: 2
@@ -84,12 +84,9 @@ h1 {
 	font-size: 1rem;
 	line-height: 1.2;
 }
-#about-me p:not(.about-me__introduction) {
-	width: 100%;
+#about-me p:last-child {
+	width: 80%;
 	font-size: 14px;
-}
-#gallery {
-	/*	min-height: 100vh; */
 }
 .title {
 	text-align: center;
@@ -264,7 +261,7 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+	#about-me p {
 		width: 100%;
 	}
 }
@@ -292,6 +289,9 @@ input[type="submit"] {
 	.about-me__title{
 		text-align: center;
 		margin-top: 1em;
+	}
+	#about-me p {
+		width: 100%;
 	}
 	#services .container {
 		flex-direction: column;
@@ -351,6 +351,9 @@ input[type="submit"] {
 	}
 	.service {
 		max-width: 90%;
+	}
+	#about-me p {
+		width: 100%;
 	}
 	#about, #contact {
 		padding-inline: 2em;
