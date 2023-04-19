@@ -35,6 +35,7 @@ nav a {
 }
 .social-link img {
 	width: 20px;
+	height: 20px;
 }
 #about {
 	background-color: #F6D2B8;
@@ -366,4 +367,3 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
-
